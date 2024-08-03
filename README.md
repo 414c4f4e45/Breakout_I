@@ -16,7 +16,7 @@ Make sure you have the required Python packages installed. You can install them 
 
 ```bash
 pip install selenium
-
+```
 ## Notes
 - Headless Mode: The script runs Chrome in headless mode for background operation. You can remove --headless from self.options.add_argument if you need to see the browser window during execution.
 - XPATHS: The script uses XPaths to select elements because Google Maps employs dynamic class names for its elements. By using XPaths, the script can access elements based on their hierarchical position and structure within the DOM. This approach ensures that even if the class names change, the script can still locate elements based on their position and relationship to other elements in the page's structure.
