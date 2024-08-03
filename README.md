@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python script uses Selenium to scrape data from Google Maps. It searches for businesses or places based on a specified keyword and geographic coordinates, then extracts information such as name, rating, address, phone number, website, hours, and top 5 reviews. The scraped data is saved into CSV and JSON files.
+This Python script uses Selenium to scrape data from Google Maps. It searches for businesses or places based on a specified keyword and geographic coordinates, then extracts information such as name, rating, address, phone number, website, hours, and top 9 reviews. The scraped data is saved into CSV and JSON files.
 
 ## Requirements
 
